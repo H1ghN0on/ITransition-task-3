@@ -1,0 +1,17 @@
+{
+  "name": "rockpapersciccors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "press-any-key": "^0.1.1",
+    "random-number-csprng": "^1.0.2",
+    "readline-sync": "^1.4.10"
+  }
+}
