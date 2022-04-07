@@ -38,7 +38,7 @@ const main = async () => {
     while (true) {
         const cStep = Step.computerStep();
 
-        console.log(cStep.HMAC);
+        console.log("HMAC: " + cStep.HMAC);
 
         const uStep = Step.userStep();
 
@@ -50,7 +50,7 @@ const main = async () => {
             } else {
                 console.log(Rules.getWinner(uStep.choice, cStep.choice) ? "You win!" : "You lose"); 
             }
-            console.log(cStep.SECRET_KEY)
+            console.log("HMAC key: " + cStep.SECRET_KEY)
           
         } else if (uStep.menuId == 0) {
             console.log("Goodbye, sir");
